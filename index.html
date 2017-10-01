@@ -8,11 +8,18 @@
       margin: 0;
     }
     iframe{
+          margin-top: -160px;
           height: 100%;
     width: 100%;
     border: none;
     margin: 0;
     padding: 0;
+    }
+    
+    @media only screen and (min-width: 990px) {
+        iframe{
+            margin-top: -90px;
+        }
     }
   </style>
 </head>
@@ -23,7 +30,7 @@
     $(document).ready(function(){
       //$("#content").load("https://www.visualcv.com/rohank");
       var frame1 = $("iframe");
-    frame1.$('header').style.display = 'none';
+    $(frame1).find('header').style.display = 'none';
     });
   </script>
 </body>
