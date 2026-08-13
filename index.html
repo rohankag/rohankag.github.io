@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109184694-1"></script>
@@ -10,12 +11,32 @@
   gtag('config', 'UA-109184694-1');
 </script>
 
-  <title>profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohank Agarwal</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <style>
     body{
       padding: 0;
       margin: 0;
+    }
+    .research-link {
+      position: fixed;
+      top: 16px;
+      right: 18px;
+      z-index: 10;
+      padding: 10px 14px;
+      background: #ffffff;
+      border: 1px solid #1f2937;
+      border-radius: 4px;
+      color: #111827;
+      font: 600 14px/1.2 Arial, sans-serif;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    }
+    .research-link:focus,
+    .research-link:hover {
+      background: #f3f4f6;
     }
     iframe{
          position: absolute;
@@ -35,6 +56,7 @@
   </style>
 </head>
 <body>
+  <a class="research-link" href="/publications.html">Research publications</a>
   <div id="content"></div>
   <iframe src="https://my.visualcv.com/rohank/"></iframe>
   <script>
